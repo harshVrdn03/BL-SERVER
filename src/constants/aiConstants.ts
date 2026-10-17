@@ -1,0 +1,7 @@
+export const AI_CONSTANTS = {
+  DEFAULT_CATEGORY: 'General Inquiry',
+  DEFAULT_PRIORITY: 'Medium',
+  DEFAULT_MODEL_TEMPLATE: 'template',
+  DEFAULT_PROVIDER_TEMPLATE: 'default',
+  MAX_INPUT_CHARS_MULTIPLIER_DRAFT: 2,
+} as const;

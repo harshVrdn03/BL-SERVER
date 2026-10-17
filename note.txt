@@ -1,0 +1,9 @@
+notes and  improvements 
+
+right now, when an author submits a query, the classification check runs in the same request
+so the author has to wait for it to finish. instead
+we can push the request to a queue and process it later in the background.
+
+
+authors and admins call apis like tickets and queries again and again.
+we can add redis caching to reduce the load on the db.
